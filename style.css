@@ -1,0 +1,169 @@
+:root {
+  --bg: #f5f5f5;
+  --beige1: #e2d6c7;
+  --beige2: #c4ad8f;
+  --beige3: #a78456;
+  --beige4: #895b1e;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.contact {
+  align-items: center;
+}
+
+.contact img {
+  height: 30px;
+  padding-right: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column nowrap;
+  justify-content: space-between;
+}
+
+.pfp {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 27px;
+  line-height: 30px;
+}
+
+.links img {
+  height: 40px;
+}
+
+button {
+  background-color: var(--beige4);
+  border: 1px solid var(--bg);
+  border-radius: 20px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: white;
+  margin-left: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.spacer {
+    width: 70px;
+}
+
+.footer {
+    width: 900px;
+}
+
+.header {
+  align-items: end;
+}
+
+.links {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.small p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+}
+
+.small {
+  width: 360px;
+  height: 97px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 20px 20px 0px 0px;
+  min-height: 60px;
+}
+
+.small:hover {
+  cursor: pointer;
+  flex-basis: 100%;
+  -webkit-transition: flex-basis 0.3s ease-out; 
+  transition: flex-basis 0.3s ease-out; 
+  min-height: 60px;
+  height: 97px;
+}
+
+.small:hover .content {
+  display: block;
+}
+
+.about-me {
+  background-color: white;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.skills {
+  background-color: var(--beige1);
+  position: relative;
+  top: -20px;
+}
+
+.education {
+  background-color: var(--beige2);
+  position: relative;
+  top: -40px;
+}
+
+.certifications {
+  background-color: var(--beige3);
+  position: relative;
+  top: -60px;
+}
+
+.projects {
+  background-color: var(--beige4);
+  position: relative;
+  top: -80px;
+  border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+  display: none;
+}
