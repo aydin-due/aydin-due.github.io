@@ -86,6 +86,8 @@ button {
 
 .footer {
     width: 900px;
+    top: -60px;
+    position: relative;
 }
 
 .header {
@@ -117,15 +119,10 @@ button {
   flex-basis: 100%;
   -webkit-transition: flex-basis 0.3s ease-out; 
   transition: flex-basis 0.3s ease-out;
-  min-height: 245px;
 }
 
 .small:hover .content {
   display: block;
-}
-
-.small:hover .small {
-  min-height: 60px;
 }
 
 .about-me {
@@ -150,7 +147,7 @@ h3 {
 }
 
 .certifications {
-  background-color: var(--beige3);
+  background-color:  var(--beige3);
   position: relative;
   top: -60px;
 }
@@ -165,7 +162,7 @@ h3 {
 .info {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 485px;
 }
 
 .content {
