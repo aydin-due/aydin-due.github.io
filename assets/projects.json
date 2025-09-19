@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Awason",
+    "category": "mobile",
+    "url": "https://github.com/aydin-due/awason",
+    "description": "A water delivery app that lets users manage orders, set delivery days and times, view delivery profiles, leave reviews, and track account information and balance.",
+    "images": ["awason.png"],
+    "skills": ["flutter", "dart"]
+  },
+  {
+    "name": "Weather App",
+    "category": "mobile",
+    "url": "https://github.com/aydin-due/weather_app",
+    "description": "An app that shows current temperature, wind speed and direction, and weather icons using the Meteomatics API for accurate, real-time data.",
+    "images": ["weather.png"],
+    "skills": ["flutter", "dart"]
+  },
+  {
+    "name": "Movies app",
+    "category": "mobile",
+    "url": "https://github.com/aydin-due/movies_app",
+    "description": "An app that fetches popular movies from the TMDb API, displaying movie details, ratings, and imagess in a clean, interactive interface.",
+    "images": ["movies.png"],
+    "skills": ["flutter", "dart"]
+  },
+  {
+    "name": "Guess The Flag",
+    "category": "mobile",
+    "url": "https://github.com/aydin-due/guesstheflag",
+    "description": "A simple quiz app where users pick the correct country flag from three options. Tracks scores in real time for a fun, replayable experience.",
+    "images": ["guessflag.png"],
+    "skills": ["swift"]
+  },
+  {
+    "name": "WeSplit",
+    "category": "mobile",
+    "url": "https://github.com/aydin-due/we-split",
+    "description": "A handy bill-splitting app where users enter the total, number of people, and tip percentage to get both the overall and per-person totals instantly.",
+    "images": ["wesplit.png"],
+    "skills": ["swift"]
+  },
+  {
+    "name": "Better Rest",
+    "category": "mobile",
+    "url": "https://github.com/aydin-due/better-rest",
+    "description": "An app that calculates the ideal time to fall asleep based on your desired wake-up time, sleep duration, and coffee intake.",
+    "images": ["better_rest.png"],
+    "skills": ["swift"]
+  },
+  {
+    "name": "Shalowm Desserts",
+    "category": "web",
+    "url": "https://github.com/aydin-due/arioli-pro",
+    "description": "A web platform with two user roles: managers can upload, edit, and delete products and recipes, and use a recipe converter to scale ingredient quantities. Customers can browse, search, and place orders seamlessly.",
+    "images": ["shalowm1.png", "shalowm2.png", "shalowm3.png"],
+    "skills": ["flask", "python", "MongoDB"]
+  },
+  {
+    "name": "Langton's Ant",
+    "category": "web",
+    "url": "https://aydin-due.github.io/langtons-ant",
+    "description": "A web-based simulation app that models Langton’s Ant behavior, visualizing the ant’s movement on a grid and allowing users to observe emergent patterns in real time.",
+    "images": ["langton1.png", "langton2.png", "langton3.png"],
+    "skills": ["flask", "python", "MongoDB"]
+  },
+  {
+    "name": "Arioli",
+    "category": "web",
+    "url": "hhttps://github.com/aydin-due/arioli-deluxe",
+    "description": "A web app for Arioli restaurant with user authentication, allowing customers to browse the menu, add multiple items to their cart, and place orders efficiently.",
+    "images": ["arioli1.png", "arioli2.png"],
+    "skills": ["flask", "python", "MongoDB"]
+  },
+  {
+    "name": "Media Aérea",
+    "category": "design",
+    "url": "https://www.figma.com/design/6ZTAzrOpvtPbdjp0hvYwCb/Media-A%C3%A9rea--m%C3%B3vil-?node-id=0-1&t=J5uREaxcmgjS8DCt-1",
+    "description": "Mobile app design for the software company Media Aerea to monitor project progress, track costs, and manage collaborators efficiently.",
+    "images": ["mediaerea.png"],
+    "skills": ["figma"]
+  },
+  {
+    "name": "Iventory Management",
+    "category": "design",
+    "url": "https://www.figma.com/design/S9iYNRAWqdqiGM3NXrvF3j/DTI-SIT-Control-Inventario?node-id=101-17&t=hLaYMzUPKYpCqAS2-1",
+    "description": "Web application for the IT department at Universidad de Sonora with user authentication, enabling staff to manage inventory inputs and outputs, track assets, and streamline administrative tasks efficiently.",
+    "images": ["dit1.png", "dit2.png", "dit3.png"],
+    "skills": ["figma"]
+  },
+  {
+    "name": "Drone Operator",
+    "category": "design",
+    "url": "https://www.figma.com/design/SFqOex256cDB5TFbEUTve6/Drones?node-id=68-4718&t=Scspc7as5fSUyRfq-1",
+    "description": "Mobile app design for drone operators to perform pre-flight checks, and log pre- and post-operation tasks efficiently during their missions.",
+    "images": ["drone.png"],
+    "skills": ["figma"]
+  },
+  {
+    "name": "Route Sales",
+    "category": "design",
+    "url": "https://www.figma.com/design/uEu2QfiPo0TEw8Y0mcFWRi/venta-en-ruta?node-id=0-1&t=djeEo0IYsMvcRx9L-1",
+    "description": "Mobile app design for managing route sales, allowing sales representatives to place orders, handle collections, store data offline, and view client locations on a map for efficient daily operations.",
+    "images": ["route_sales.png"],
+    "skills": ["figma"]
+  },
+  {
+    "name": "SFM",
+    "category": "design",
+    "url": "https://www.figma.com/design/eASxwN61MigboHcqoMarpK/pre-ticket?node-id=0-1&t=KcNreV1Vx4xyJZid-1",
+    "description": "Mobile app design for store employees to handle tasks like pre-ticketing, printing product tags, mobile top-ups, price verification, and more.",
+    "images": ["sfm.png"],
+    "skills": ["figma"]
+  }
+]

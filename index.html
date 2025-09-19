@@ -2,117 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aydin's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="script.js"></script>
-      <link rel="icon" href="assets/bag_dark.png" />
-    <title>aydin's portfolio</title>
   </head>
   <body>
-    <div class="wrapper">
-      <div class="header row">
-        <div class="profile">
-          <h1>aydin dueñas salman</h1>
-          <h2>information systems engineer</h2>
-        </div>
-        <div class="spacer"></div>
-        <div class="links row">
-          <a href="https://www.linkedin.com/in/aydin-due/" target="_blank">
-            <img src="assets/linkedin.png" />
-          </a>
-          <a href="https://github.com/aydin-due" target="_blank">
-            <img src="assets/github.png" />
-          </a>
-          <button onclick="downloadPDF()">download my cv</button>
-        </div>
-      </div>
-      <div class="main row">
-        <img class="pfp" src="assets/profile.jpg" />
-        <div class="spacer"></div>
-        <div class="info">
-          <div class="about-me small">
-            <h3>About me</h3>
-            <p class="content">
-              I am an Information Systems Engineering student at Universidad de
-              Sonora, experienced in both web and mobile applications
-              development, with excellent communication and problem-solving
-              abilities.
-            </p>
-          </div>
-          <div class="skills small overlap">
-            <h3>Skills</h3>
-            <p class="content">
-              <strong>Programming</strong><br />
-              - Python (Django, Flask)<br />
-              - Dart (Flutter) <br />
-              - JavaScript (React) <br />
-              <br />
-              <strong>Languages</strong><br />
-              - Spanish (native)<br />
-              - English (advanced)<br />
-            </p>
-          </div>
-          <div class="education small overlap">
-            <h3>Education</h3>
-            <p class="content">
-              <strong>Bachelor of Systems Information Engineering</strong><br />
-              Universidad de Sonora<br />
-              Expected Year of Graduation: 2023 <br />
-              <br />
-              <strong>Participant in Launch X Program</strong><br />
-              Microsoft 2022 <br />
-              I developed multiple applications, expanding my frontend and
-              backend abilities using JavaScript.
-            </p>
-          </div>
-          <div class="certifications small overlap">
-            <h3>Certifications</h3>
-            <p class="content">
-              <strong>Scientific Computing with Python</strong><br />
-              FreeCodeCamp (2021)<br />
-              <br />
-              <strong>Crash Course on Python</strong><br />
-              Google (2021)<br />
-              <br />
-              <strong>Data Analysis with Python</strong><br />
-              FreeCodeCamp (2021)<br />
-            </p>
-          </div>
-          <div class="projects small overlap">
-            <h3>Projects</h3>
-            <p class="content">
-              <strong>Ene </strong>(Python, Flask)<br />
-              Web application for ordering when dining in, optimizing the
-              process for both the clients and the restaurant.<br />
-              <strong>Awason </strong>(Dart, Flutter)<br />
-              Mobile application for delivery of water gallons, communicating
-              the carriers and clients while providing history of orders,
-              automated and/or last-minute requests, etcetera.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="footer row">
-        <div class="contact row">
-          <img src="assets/pin.png" />
-          <p>Hermosillo, Sonora</p>
-        </div>
-        <div class="contact row">
-          <img src="assets/email.png" />
-          <p>aydindue.tech@gmail.com</p>
-        </div>
-        <div class="contact row">
-          <img src="assets/phone.png" />
-          <p>+52 622 164 06 44</p>
-        </div>
+    <div class="nav-bar">
+      <h1 class="nav-title">Aydin's Portfolio</h1>
+      <div class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
       </div>
     </div>
+    <div class="content">
+      <h2>Hi! I’m Aydin Dueñas Salman, a</h2>
+      <h1>Mobile Developer</h1>
+      <p>
+        I love turning ideas into cross-platform apps, blending Flutter
+        development with thoughtful design to create enjoyable user experiences.
+        Explore my work and feel free to reach out for collaborations or
+        inquiries.
+      </p>
+      <button onclick="downloadPDF()">Download my CV</button>
+      <p class="subtitle">Or connect with me:</p>
+      <div class="social-links">
+        <a href="mailto:aydinduen@gmail.com" target="_blank">
+          <div class="social-link">
+            <img src="assets/mail.png" />
+            <p>aydindue.tech@gmail.com</p>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/aydin-due" target="_blank">
+          <div class="social-link">
+            <img src="assets/linkedin.png" />
+            <p>/in/aydin-due</p>
+          </div>
+        </a>
+        <a href="https://github.com/aydin-due" target="_blank">
+          <div class="social-link">
+            <img src="assets/github.png" />
+            <p>aydin-due</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
